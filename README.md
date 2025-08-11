@@ -1,12 +1,9 @@
 # 2025_C2
 Repositorio de la materia "Programación" de la ECyT - UNSAM
 
-## Indice 
-
-
 ## Coding style rules
 
-El la pestaña wiki pueden encotrar los estilos correctos
+Añadiendo el archivo .clang-format se formatea el codigo al guardar
 
 ## GIT tips and commands
 
