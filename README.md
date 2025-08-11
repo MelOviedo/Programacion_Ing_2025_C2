@@ -3,7 +3,7 @@ Repositorio de la materia "Programación" de la ECyT - UNSAM
 
 ## Coding style rules
 
-Añadiendo el archivo .clang-format se formatea el codigo al guardar
+Añadiendo el archivo .clang-format en la carpeta base, al guardar se formatea el codigo. 
 
 ## GIT tips and commands
 
