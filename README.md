@@ -1,5 +1,16 @@
-# 2025_C2
-Repositorio de la materia "Programación" de la ECyT - UNSAM
+# Programación 2025_C2 de la ECyT - UNSAM para Ingenierías
+
+## Complilación de ejercicios
+GCC (compilador que se puede usar en Windows)
+```
+gcc nombreArchivo.c -o nombreArchivo
+.\nombreArchivo
+```
+## Contenidos
+0. Repaso
+1. Teoricas
+2. Ejercitraciones
+    1. Clase 0
 
 ## Coding style rules
 
