@@ -14,7 +14,7 @@ Añadiendo el archivo .clang-format en la carpeta base, al guardar se formatea e
 
 Clonar el repositorio 
 ```
-git clone https://github.com/Programacion-B-UNSAM/2025_C1.git
+git clone https://github.com/Programacion-B-UNSAM/2025_C2.git
 ```
 
 Traer ultimos cambios 
