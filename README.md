@@ -1,6 +1,8 @@
 # 2025_C2
 Repositorio de la materia "Programación" de la ECyT - UNSAM
 
+Link a los videos de las clases teóricas: https://drive.google.com/drive/folders/10NrlNoQ_Pt79wCq_NwzbQv_Vj8fppuuL?usp=sharing
+
 ## Coding style rules
 
 Añadiendo el archivo .clang-format en la carpeta base, al guardar se formatea el codigo. 
