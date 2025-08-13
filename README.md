@@ -7,9 +7,9 @@ gcc nombreArchivo.c -o nombreArchivo
 .\nombreArchivo
 ```
 ## Contenidos
-0. Repaso
-1. Teoricas
-2. Ejercitraciones
+0. [Apuntes](./Apuntes/README.md)
+1. [Teoricas](./Teoricas)
+2. Ejercitaciones
     1. Clase 0
 
 ## Coding style rules
