@@ -1,7 +1,7 @@
 # Programación 2025_C2 de la ECyT - UNSAM para Ingenierías
 Programa de la Materia:  
 * [Repaso](./Clase0/)
-* a
+* Numeración y Máscaras
 * a
 * a
 * a
@@ -14,11 +14,12 @@ GCC (compilador que se puede usar en Windows)
 gcc nombreArchivo.c -o nombreArchivo
 .\nombreArchivo
 ```
-## Contenidos
+## Contenidos del Repo
 0. [Apuntes](./Apuntes/README.md)
 1. [Teoricas](./Teoricas)
-2. Ejercitaciones
-    1. Clase 0
+2. [Ejercitaciones](./Guias/)
+    1. [Clase 0](./Clase0/)
+    2. [Repaso](./Guias/repaso/)
 
 ## Coding style rules
 

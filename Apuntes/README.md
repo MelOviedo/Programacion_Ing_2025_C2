@@ -3,7 +3,7 @@
 1. [Tipo de Datos](./tipoDeDato.c)
 2. [Operacionales Binarios](./operacionales.c)
 3. [Operacionales Relacionales y Lógicos](./rangoMultiple.c)
-4. [Script de Validacion de un número](./validoNum.c)
+4. [Validación de un número](./validoNum.c)
 5. [For anidado - Dibuja un Triangulo](./triangulo.c)
 6. [Recorrer Vector](./recorrerVector.c)
 7. [Conversor](./conversor.c)
@@ -86,7 +86,7 @@ b = 6 ;
 ### Condicionales  
 Esta sentencia de control permite ejecutar o no una sentencia simple o compuesta según se cumpla o no una determinada condición.  
 
-[Script conficional Anidado](./rangoMultiple.c) 
+[Script condicional Anidado](./rangoMultiple.c) 
 
 ---
 ### Ciclos  
@@ -106,7 +106,7 @@ Es un ciclo repetitivo basado en los resultados de una expresión lógica. Su pr
 #### DoWhile  
 Es una estructura de control repetitiva que ejecuta un bloque de instrucciones al menos una vez, y luego sigue repitiéndolo mientras la condición sea verdadera.
 
-[Script de Validacion de un número](./validoNum.c)
+[Script de Validación de un número](./validoNum.c)
 
 ---
 ### Vectores o Arrays  
