@@ -1,6 +1,14 @@
 # Programación 2025_C2 de la ECyT - UNSAM para Ingenierías
+Programa de la Materia:  
+* a
+* a
+* a
+* a
+* a
+* a
 
 ## Complilación de ejercicios
+
 GCC (compilador que se puede usar en Windows)
 ```
 gcc nombreArchivo.c -o nombreArchivo
