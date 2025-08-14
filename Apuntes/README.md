@@ -3,8 +3,8 @@
 1. [Tipo de Datos](./tipoDeDato.c)
 2. [Operacionales Binarios](./operacionales.c)
 3. [Operacionales Relacionales y Lógicos](./rangoMultiple.c)
-4. []()
-5. []()
+4. [Script de Validacion de un número](./validoNum.c)
+5. [For anidado - Dibuja un Triangulo](./triangulo.c)
 6. [Recorrer Vector](./recorrerVector.c)
 7. [Conversor](./conversor.c)
 
@@ -91,18 +91,22 @@ Esta sentencia de control permite ejecutar o no una sentencia simple o compuesta
 ---
 ### Ciclos  
 #### For  
-Controlar la cantidad de veces que es ejecuta la instrucción mediante un *CONTADOR que debe ir evolucionando hasta alcanzar el valor deseado.
-![for](image-3.png)  
+Controlar la cantidad de veces que es ejecuta la instrucción mediante un *CONTADOR que debe ir evolucionando hasta alcanzar el valor deseado.  
+![for](image-3.png)
+
+[Script de For anidado](./triangulo.c)
 
 #### While  
 Es un ciclo repetitivo basado en los resultados de una expresión lógica. Su propósito es repetir un bloque de código mientras una condición se mantenga verdadera.  
 
-![while](image.png)
+![while](image.png)  
+
+[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./conversor.c)
 
 #### DoWhile  
 Es una estructura de control repetitiva que ejecuta un bloque de instrucciones al menos una vez, y luego sigue repitiéndolo mientras la condición sea verdadera.
-                        
-[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./conversor.c)
+
+[Script de Validacion de un número](./validoNum.c)
 
 ---
 ### Vectores o Arrays  
