@@ -2,8 +2,8 @@
 0. [Hola Mundo](./holaMundo.c)
 1. [Tipo de Datos](./tipoDeDato.c)
 2. [Operacionales Binarios](./operacionales.c)
-3. [Operacionales Relacionales]()
-4. [Operacionales Lógicos]()
+3. [Operacionales Relacionales y Lógicos](./rangoMultiple.c)
+4. []()
 5. []()
 6. [Recorrer Vector](./recorrerVector.c)
 7. [Conversor](./conversor.c)
@@ -67,6 +67,9 @@ b = 6 ;
 | == | Igual a | a == b | False |
 | !=  | Distinto a | a != b | True |
 
+[Script Operadores Relacionales y Lógicos](./rangoMultiple.c)  
+[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./conversor.c)
+
 ---
 ### Operadores Lógicos
 | Operador | Símbolo |
@@ -75,14 +78,34 @@ b = 6 ;
 | OR  | \|\| |
 | NOT  | ! |
 
----
-### Condicionales
+[Script Operadores Relacionales y Lógicos](./rangoMultiple.c)  
+[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./conversor.c)
 
 ---
-### Ciclos
+### Condicionales  
+[Script conficional Anidado](./rangoMultiple.c) 
 
 ---
-### Archivos
+### Ciclos  
+#### For  
+ssss ssss
+#### While
+
+#### DoWhile
+
+[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./conversor.c)
+
+---
+### Vectores o Arrays  
+
+[Script Formas de recorrer un Vector](./recorrerVector.c)  
+[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./conversor.c)
+
+---
+### Matrices
+
+---
+### Archivos  
 
 
 ---
