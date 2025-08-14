@@ -39,13 +39,14 @@
 
 ---
 ### Operador Asignación  
-Es el valor que se le asigna a una variable.
+Es el valor que se le asigna a una variable, es decir, es el paso de valores o resultados a una zona de memoria.
 ```c
 a = 5 ;      //Le asigno el valor 5 a la variable 'a'
 b = 6.5 ;    //Le asigno el valor 6.5 a la variable 'b'
 ``` 
 > [!IMPORTANT]
 > No es lo mismo asignar (=) que igualdad (==)
+> ![adi](image-2.png)
 
 ---
 ### Operadores Relacionales
@@ -83,20 +84,32 @@ b = 6 ;
 
 ---
 ### Condicionales  
+Esta sentencia de control permite ejecutar o no una sentencia simple o compuesta según se cumpla o no una determinada condición.  
+
 [Script conficional Anidado](./rangoMultiple.c) 
 
 ---
 ### Ciclos  
 #### For  
-ssss ssss
-#### While
+Controlar la cantidad de veces que es ejecuta la instrucción mediante un *CONTADOR que debe ir evolucionando hasta alcanzar el valor deseado.
+![for](image-3.png)  
 
-#### DoWhile
+#### While  
+Es un ciclo repetitivo basado en los resultados de una expresión lógica. Su propósito es repetir un bloque de código mientras una condición se mantenga verdadera.  
 
+![while](image.png)
+
+#### DoWhile  
+Es una estructura de control repetitiva que ejecuta un bloque de instrucciones al menos una vez, y luego sigue repitiéndolo mientras la condición sea verdadera.
+                        
 [Script Conversor de Decimal a Binario, Octal y Hexadecimal](./conversor.c)
 
 ---
 ### Vectores o Arrays  
+Un vector es un conjunto de datos del mismo tipo, como números o cadenas, que están ordenados 'secuencialmente' y almacenados de forma contigua (es decir, uno al lado del otro) en memoria principal.
+Tiene una longitud determinada. Se puede acceder a cada elemento mediante un índice, que generalmente comienza en cero.
+
+![alt text](image-1.png)
 
 [Script Formas de recorrer un Vector](./recorrerVector.c)  
 [Script Conversor de Decimal a Binario, Octal y Hexadecimal](./conversor.c)
