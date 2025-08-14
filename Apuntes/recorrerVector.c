@@ -26,6 +26,15 @@ void imprimirVectorReversa(int vec[],int i){
   }
 }
 
+void cargaVector(int vec[]){
+  int i;
+  printf("Carga del vector\n");
+  for(i = 0; i<N; i++){
+    printf("Ingrese el valor %d: ",i+1);
+    scanf("%d",&vec[i]);
+  }
+}
+
 int main(){
   int vec[N];
 
@@ -37,6 +46,10 @@ int main(){
 
   limpiarVector(vec);
   printf("\nVector Limpio\n");
+  imprimirVector(vec,N);
+
+  cargaVector(vec);
+  printf("\nVector Cargado\n");
   imprimirVector(vec,N);
 
   return 0;
