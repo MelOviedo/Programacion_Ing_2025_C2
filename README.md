@@ -20,6 +20,8 @@ gcc nombreArchivo.c -o nombreArchivo
 2. Ejercitaciones
     1. Clase 0
 
+Link a los videos de las clases teóricas: https://drive.google.com/drive/folders/10NrlNoQ_Pt79wCq_NwzbQv_Vj8fppuuL?usp=sharing
+
 ## Coding style rules
 
 Añadiendo el archivo .clang-format en la carpeta base, al guardar se formatea el codigo. 
@@ -33,7 +35,7 @@ Añadiendo el archivo .clang-format en la carpeta base, al guardar se formatea e
 
 Clonar el repositorio 
 ```
-git clone https://github.com/Programacion-B-UNSAM/2025_C1.git
+git clone https://github.com/Programacion-B-UNSAM/2025_C2.git
 ```
 
 Traer ultimos cambios 
