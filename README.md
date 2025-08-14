@@ -1,6 +1,6 @@
 # Programación 2025_C2 de la ECyT - UNSAM para Ingenierías
 Programa de la Materia:  
-* a
+* [Repaso](./Clase0/)
 * a
 * a
 * a
@@ -19,8 +19,6 @@ gcc nombreArchivo.c -o nombreArchivo
 1. [Teoricas](./Teoricas)
 2. Ejercitaciones
     1. Clase 0
-
-Link a los videos de las clases teóricas: https://drive.google.com/drive/folders/10NrlNoQ_Pt79wCq_NwzbQv_Vj8fppuuL?usp=sharing
 
 ## Coding style rules
 
