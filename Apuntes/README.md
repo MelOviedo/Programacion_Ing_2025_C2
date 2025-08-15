@@ -1,4 +1,5 @@
 # <center>Contenido
+## <center>Ejemplos
 0. [Hola Mundo](./holaMundo.c)
 1. [Tipo de Datos](./tipoDeDato.c)
 2. [Operacionales Binarios](./operacionales.c)
@@ -7,8 +8,11 @@
 5. [For anidado - Dibuja un Triangulo](./triangulo.c)
 6. [Recorrer Vector](./recorrerVector.c)
 7. [Conversor](./conversor.c)
+8. [Números aleatorios fijos](./numAleatoriosFijos.c)
+9. [Números aleatorios](./numAleatorios.c)
+10. [Números aleatorios en un rango](./numAleatoriosRango.c) 
 
-# <center>Banco de Apuntes
+## <center>Banco de Apuntes
 
 ### Tipos de variables
 |Tipo de Dato|Tamaño|
@@ -139,6 +143,20 @@ printf("%.2f\n", numero); // Muestra con 2 decimales
 printf("%.4f\n", numero); // Muestra con 4 decimales
 ```
 [Script de operacionales](./operacionales.c)
+
+---
+### Generar números Aleatorios  
+Como se ve en el ejemplo de acontinuación, se generan valores fijos de una semilla por más que se los vuelva a compilar va a devolver los mismos valores.  
+[Script de números aleatorios fijos](./numAleatoriosFijos.c)  
+
+Para generar números aleatorios mediante una semilla se necesita:  
+* Función $\rightarrow$ *srand(int)* $\rightarrow$ Biblioteca $\rightarrow$ stdlib.h  
+Esta función permite indicar la semilla o valor inicial que se usará para la generación de números aleatorios.  
+
+* Función $\rightarrow$ *time(NULL)* $\rightarrow$ Biblioteca $\rightarrow$ time.h  
+Se va a utilizar el reloj del sistema para generar una semilla de valores distintos.  
+[Script de números aleatorios](./numAleatorios.c)  
+[Script de números aleatorios en un rango](./numAleatoriosRango.c) 
 
 
 

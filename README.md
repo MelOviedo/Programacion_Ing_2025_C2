@@ -17,9 +17,13 @@ gcc nombreArchivo.c -o nombreArchivo
 ## Contenidos del Repo
 0. [Apuntes](./Apuntes/README.md)
 1. [Teoricas](./Teoricas)
-2. [Ejercitaciones](./Guias/)
+2. <details>
+    <summary>Ejercitaciónes</summary>
+
     1. [Clase 0](./Clase0/)
     2. [Repaso](./Guias/repaso/)
+
+</details>
 
 ## Coding style rules
 
