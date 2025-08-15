@@ -11,6 +11,7 @@
 8. [Números aleatorios fijos](./numAleatoriosFijos.c)
 9. [Números aleatorios](./numAleatorios.c)
 10. [Números aleatorios en un rango](./numAleatoriosRango.c) 
+11. [Números aleatorios en un rango de Inicio y Fin](./numAleatoriosIF.c) 
 
 ## <center>Banco de Apuntes
 
@@ -157,6 +158,6 @@ Esta función permite indicar la semilla o valor inicial que se usará para la g
 Se va a utilizar el reloj del sistema para generar una semilla de valores distintos.  
 [Script de números aleatorios](./numAleatorios.c)  
 [Script de números aleatorios en un rango](./numAleatoriosRango.c) 
-
+[Script de números aleatorios en un rango de Inicio y Fin](./numAleatoriosIF.c) 
 
 
