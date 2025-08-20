@@ -1,6 +1,6 @@
 # Programación 2025_C2 de la ECyT - UNSAM para Ingenierías
 Programa de la Materia:  
-* [Repaso](./Clase0/)
+* [Repaso](./Clase0/) | [Apuntes](./Apuntes/README.md)
 * Numeración y Máscaras
 * a
 * a
