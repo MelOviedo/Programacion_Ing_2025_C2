@@ -176,7 +176,9 @@ for (inicio ; condición ; incremento){
 
 ![for](./images/image-3.png)  
 
-[Script de For anidado](./triangulo.c)
+[Script Recorriendo un Vector](./recorrerVector.c)
+[Script de For anidado](./triangulo.c)  
+[Script Recorriendo una Matriz](./matrices.c)  
 
 #### While  
 Es un ciclo repetitivo basado en los resultados de una expresión lógica. Su propósito es repetir un bloque de código mientras una condición se mantenga verdadera.  
@@ -233,13 +235,6 @@ tipoDeVariable nombreMatriz[renglon][columna]
 
 
 ---
-### Funciones útiles
-* sizeof() $\rightarrow$ devuelve un número entero, la cantidad de bytes que usa la variable
-* 
-
-
-
----
 ### Redondear
 ```c
 printf("%.2f\n", numero); // Muestra con 2 decimales
@@ -263,4 +258,50 @@ Se va a utilizar el reloj del sistema para generar una semilla de valores distin
 [Script de números aleatorios en un rango](./numAleatoriosRango.c)  
 [Script de números aleatorios en un rango de Inicio y Fin](./numAleatoriosIF.c)  
 
+---
+### Strings  
+Se denomina **strings** a una secuencia de caracteres.  
+Son vectores de tipo *char*, es decir, cada caracter es almacenado en una posición del vector, ese termina con un caracter al final que indica el final de la cadena ```'\0' ```.  
+A la hora de trabajar con strings se suele utilizar la biblioteca *string.h*.
+
+```c
+  // Posiciones de la cadena    // |0|1|2|3| 4|5|6|
+char cadena1[7] ="Hola";        // |H|o|l|a|\0|&|*|
+
+char miCadena[10];  //Dimensión que puede tener la cadena-> |_|_|_|_|_|_|_|_|_|\0|
+//Carga de una palabra, OJO -> Sólo se va a tomar una palabra
+scanf("%s",miCadena)
+```  
+Como se puede ver en el ejemplo anterior, la función scanf guarda lo que pulsemos por teclado hasta el primer espacio en blanco o enter, es decir, si es una cadena compuesta sólo se almacenará en el array hasta el primer espacio en blanco. Para evitarlo se utiliza:
+```c
+gets(miCadena)
+
+//Para imprimir en terminal
+printf('%s',miCadena)
+```  
+Para el ingreso de una cadena es recomendable utilizar la biblioteca string.h 
+```c
+//Siendo N la longitud máxima que tendrá la cadena
+fgets(cadena,N,stdin);
+``` 
+
+Funciones más utilizadas de la biblioteca string.h:
+* *strcpy(destino,origen)* $\rightarrow$ Copia la cadena origen a la cadena destino
+* *strlen(cadena)* $\rightarrow$ Devuelve la longitud sin contar el fin de cadena
+* *srcmp(primera,segunda)* $\rightarrow$ Compara alfabéticamente devolviendo un entero (tener en cuenta la tabla ASCII) 
+  * <0 $\rightarrow$ Si primera va antes en el diccionario
+  * =0 $\rightarrow$ Las cadenas son idénticas
+  * \>0 $\rightarrow$ Si primera va después en el diccionario
+* *stricmp(cad1, cad2)* ó *strcasecmp(cad1, cad2)* $\rightarrow$ Compara las cadenas alfabéticamente devolviendo un entero. Es INDIFERENTE si es mayúscula o minúscula la comparación.
+  * <0 $\rightarrow$ Si la primera va antes en el diccionario
+  * =0 $\rightarrow$ Si las cadenas son identicas
+  * \>0 $\rightarrow$ Si la segunda va antes en el diccionario
+---
+### Algoritmo de Ordenamiento
+
+
+---
+### Funciones útiles
+* sizeof() $\rightarrow$ devuelve un número entero, la cantidad de bytes que usa la variable
+* 
 
