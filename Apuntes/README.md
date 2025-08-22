@@ -13,7 +13,7 @@
 10. [Números aleatorios en un rango](./numAleatoriosRango.c) 
 11. [Números aleatorios en un rango de Inicio y Fin](./numAleatoriosIF.c) 
 12. [Recorrer Matrices](./matrices.c)
-
+13. [Eliminar un Caracter](./eliminarCaracter.c)
 
 ## <center>Banco de Apuntes
 
@@ -296,6 +296,10 @@ Funciones más utilizadas de la biblioteca string.h:
   * <0 $\rightarrow$ Si la primera va antes en el diccionario
   * =0 $\rightarrow$ Si las cadenas son identicas
   * \>0 $\rightarrow$ Si la segunda va antes en el diccionario
+* *strcspn(cadena, caracter)* $\rightarrow$ Devuelve el índice del primer carácter en la cadena que coincida con el caracter a comparar.  
+
+[Script de elimina un Caracter](./eliminarCaracter.c) 
+
 ---
 ### Algoritmo de Ordenamiento
 
