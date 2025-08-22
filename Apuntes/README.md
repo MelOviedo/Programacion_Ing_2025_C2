@@ -14,6 +14,8 @@
 11. [Números aleatorios en un rango de Inicio y Fin](./numAleatoriosIF.c) 
 12. [Recorrer Matrices](./matrices.c)
 13. [Eliminar un Caracter](./eliminarCaracter.c)
+14. [Archivo Texto](./archivoTexto.c)
+15. [Archivo Binario](./archivoBinario.c)
 
 ## <center>Banco de Apuntes
 
@@ -222,17 +224,58 @@ Tiene una longitud determinada. Se puede acceder a cada elemento mediante un ín
 ### Matrices
 Es un vector, cuyos elementos son vectores.  
 Cada elemento puede referenciarse con dos índices.  
-Una matriz contiene de m x n elementosm lo que indica que tiene m renglones y n columnas.  
+Una matriz contiene de m x n elementos lo que indica que tiene m renglones y n columnas.  
 
 ```c
 tipoDeVariable nombreMatriz[renglon][columna]
 ```
 
-[Script de matrices](./matrices.c)
+[Script de Matrices](./matrices.c)
 
 ---
 ### Archivos  
+Un archivo, es una colección de datos que tiene un nombre y una extensión que lo identifica y su contenido puede guardarse en distintos soportes de almacenamiento.  
+Tipo de Archivos:  
+* **Archivos Texto**  
+Registros de longitud variable. Pueden ser procesados por cualquier editor de texto . Contienen información en forma de caracteres. Normalmente se organizan los caracteres en forma de líneas al final de cada cual se coloca un carácter de fin de línea (normalmente “\r\n”).
+* **Archivos Binarios**  
+Registros delongitud fija. Almacenan datos en forma binaria,es decir que no son interpretables como texto (números, imágenes, etc.).
 
+Para procesar un archivo la primera operación a realizar es abrir el archivo. Una vez que el archivo está abierto, la información puede ser intercambiada entre este y el programa. Siempre que se abre el archivo se debe de cerrar y es buena práctica verificar que se abrió.
+```c
+FILE= *id;
+id = fopen(nombreArchivo,"modo")  //Abro el archivo
+if (id == NULL) {
+    printf("Error al abrir el archivo.\n");
+}
+
+{bloque}
+
+fclose(id); //Cierro el archivo
+
+```
+Modos de aperturas en Archivos de Texto
+| Modo | Operación |
+|:---:|:---|
+| *r* ó *rt* | Apertura en modo sólo lectura, el archivo debe existir |
+| *w* ó *wt* | Apertura en modo escritura, si el archivo existe se sobreescribe y pierde el contenido anterior. Si no existe lo crea |
+| *a* ó *at* | Apertura en modo agregar, si el archivo existe agrega los datos al final del archivo, sino existe lo crea |
+| *r+* | Apertura en modo lectura el archivo debe existir |
+| *w+* | Apertura en modo lectura/escritura, el archivo debe existir, si el archivo existe se sobreescribe y pierde el contenido anterior. Si no existe lo crea |
+| *a+*  | Apertura en modo lectura/agregar, si el archivo existe agrega los datos al final del archivo, si no existe lo crea |
+
+Modos de Aperturas en Archivos Binarios
+| Modo | Operación |
+|:---:|:---|
+| *r* | Apertura en modo sólo lectura, el archivo debe existir |
+| *wb* | Apertura en modo escritura, si el archivo existe se sobreescribe y pierde el contenido anterior. Si no existe lo crea |
+| *ab* | Apertura en modo agregar, si el archivo existe agrega los datos al final del archivo, sino existe lo crea |
+| *rb* ó *r+b*  | Apertura en modo lectura el archivo debe existir |
+| *wb* ó *w+b* | Apertura en modo lectura/escritura el archivo debe existir, si el archivo existe se sobreescribe y pierde el contenido anterior. Si no existe lo crea |
+| *ab* ó *a+b*  | Apertura en modo lectura/agregar, si el archivo existe agrega los datos al final del archivo, si no existe lo crea |
+
+[Script de Archivos de texto](./archivoTexto.c)  
+[Script de Archivo Binarios](./archivoBinario.c)
 
 ---
 ### Redondear
