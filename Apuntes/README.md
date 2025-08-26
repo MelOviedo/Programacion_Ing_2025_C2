@@ -1,23 +1,23 @@
-# <center>Contenido
-## <center>Ejemplos
-0. [Hola Mundo](./holaMundo.c)
-1. [Tipo de Datos](./tipoDeDato.c)
-2. [Operacionales Binarios](./operacionales.c)
-3. [Operacionales Relacionales y Lógicos](./rangoMultiple.c)
-4. [Validación de un número](./validoNum.c)
-5. [For anidado - Dibuja un Triangulo](./triangulo.c)
-6. [Recorrer Vector](./recorrerVector.c)
-7. [Conversor](./conversor.c)
-8. [Números aleatorios fijos](./numAleatoriosFijos.c)
-9. [Números aleatorios](./numAleatorios.c)
-10. [Números aleatorios en un rango](./numAleatoriosRango.c) 
-11. [Números aleatorios en un rango de Inicio y Fin](./numAleatoriosIF.c) 
-12. [Recorrer Matrices](./matrices.c)
-13. [Eliminar un Caracter](./eliminarCaracter.c)
-14. [Archivo Texto](./archivoTexto.c)
-15. [Archivo Binario](./archivoBinario.c)
+# <center> 📚 Contenido  
+## <center>🔰 Ejemplos
+0. [Hola Mundo](./ejerciciosRepaso/holaMundo.c)
+1. [Tipo de Datos](./ejerciciosRepaso/tipoDeDato.c)
+2. [Operacionales Binarios](./ejerciciosRepaso/operacionales.c)
+3. [Operacionales Relacionales y Lógicos](./ejerciciosRepaso/rangoMultiple.c)
+4. [Validación de un número](./ejerciciosRepaso/validoNum.c)
+5. [For anidado - Dibuja un Triangulo](./ejerciciosRepaso/triangulo.c)
+6. [Recorrer Vector](./ejerciciosRepaso/recorrerVector.c)
+7. [Conversor](./ejerciciosRepaso/conversor.c)
+8. [Números aleatorios fijos](./ejerciciosRepaso/numAleatoriosFijos.c)
+9. [Números aleatorios](./ejerciciosRepaso/numAleatorios.c)
+10. [Números aleatorios en un rango](./ejerciciosRepaso/numAleatoriosRango.c) 
+11. [Números aleatorios en un rango de Inicio y Fin](./ejerciciosRepaso/numAleatoriosIF.c) 
+12. [Recorrer Matrices](./ejerciciosRepaso/matrices.c)
+13. [Eliminar un Caracter](./ejerciciosRepaso/eliminarCaracter.c)
+14. [Archivo Texto](./ejerciciosRepaso/archivoTexto.c)
+15. [Archivo Binario](./ejerciciosRepaso/archivoBinario.c)
 
-## <center>Banco de Apuntes
+## <center>📂Banco de Apuntes
 
 ### Variable  
 En programación, una variable está formada por un lugar en la memoria y un **identificador** (nombre simbólico) que está asociado a dicho espachi. Ese espacio contiene una información conocida o desconocida, es decir un *dato*.
@@ -37,7 +37,7 @@ En programación, una variable está formada por un lugar en la memoria y un **i
 > [!TIP]
 > 1 byte = 8 bits
 
-[Script de tipo de Datos](./tipoDeDato.c)
+[Script de tipo de Datos](./ejerciciosRepaso/tipoDeDato.c)
 
 ---
 ### Directivas  
@@ -63,7 +63,7 @@ Las palabras que empiezan con *#* se denominan directivas.
 | %f | Punto flotente (float) | | %X | Hexadecimal sin signo con mayúscula |
 | %e | Notación científica con e minúscula | | %p | Puntero, dirección de memoria |
 | %e | Notación científica con E mayúscula | | %n | Números de caracteres |
-| %g | Utiliza %f o %e según sea más corto | | %o | Formato entero octal |
+| %g | Utiliza %f o %e según sea más corto | | %zu | size_t en formato decimal sin signo |
 | %G | Utiliza %f o %E según sea más corto | | %O ó %lo | Formato entero octal long |
 | %o | Número octal sin signo | | %lf | Formato double |
 
@@ -77,8 +77,8 @@ Las palabras que empiezan con *#* se denominan directivas.
 | División  | / |
 | Módulo  | % |
 
-[Script Operadores Binarios](./operacionales.c)  
-[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./conversor.c)
+[Script Operadores Binarios](./ejerciciosRepaso/operacionales.c)  
+[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./ejerciciosRepaso/conversor.c)
 
 ---
 ### Operador Asignación  
@@ -111,8 +111,8 @@ b = 6 ;
 | == | Igual a | a == b | False |
 | !=  | Distinto a | a != b | True |
 
-[Script Operadores Relacionales y Lógicos](./rangoMultiple.c)  
-[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./conversor.c)
+[Script Operadores Relacionales y Lógicos](./ejerciciosRepaso/rangoMultiple.c)  
+[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./ejerciciosRepaso/conversor.c)
 
 ---
 ### Operadores Lógicos
@@ -122,8 +122,8 @@ b = 6 ;
 | OR  | \|\| | o |
 | NOT  | ! | Negación |
 
-[Script Operadores Relacionales y Lógicos](./rangoMultiple.c)  
-[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./conversor.c)
+[Script Operadores Relacionales y Lógicos](./ejerciciosRepaso/rangoMultiple.c)  
+[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./ejerciciosRepaso/conversor.c)  
 
 ---
 ### Condicionales  
@@ -149,7 +149,7 @@ if(condicion){
 }
 ``` 
 
-[Script condicional Anidado](./rangoMultiple.c) 
+[Script condicional Anidado](./ejerciciosRepaso/rangoMultiple.c) 
 
 ---
 ### Variable Contador  
@@ -178,9 +178,9 @@ for (inicio ; condición ; incremento){
 
 ![for](./images/image-3.png)  
 
-[Script Recorriendo un Vector](./recorrerVector.c)
-[Script de For anidado](./triangulo.c)  
-[Script Recorriendo una Matriz](./matrices.c)  
+[Script Recorriendo un Vector](./ejerciciosRepaso/recorrerVector.c)  
+[Script de For anidado](./ejerciciosRepaso/triangulo.c)    
+[Script Recorriendo una Matriz](./ejerciciosRepaso/matrices.c)    
 
 #### While  
 Es un ciclo repetitivo basado en los resultados de una expresión lógica. Su propósito es repetir un bloque de código mientras una condición se mantenga verdadera.  
@@ -197,7 +197,7 @@ while (condición){
 
 ![while](./images/image.png)  
 
-[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./conversor.c)
+[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./ejerciciosRepaso/conversor.c)
 
 #### DoWhile  
 Es una estructura de control repetitiva que ejecuta un bloque de instrucciones al menos una vez, y luego sigue repitiéndolo mientras la condición sea verdadera.
@@ -208,7 +208,7 @@ do{
 }while (condición);
 ```
 
-[Script de Validación de un número](./validoNum.c)
+[Script de Validación de un número](./ejerciciosRepaso/validoNum.c)
 
 ---
 ### Vectores o Arrays  
@@ -217,8 +217,8 @@ Tiene una longitud determinada. Se puede acceder a cada elemento mediante un ín
 
 ![alt text](./images/image-1.png)  
 
-[Script Formas de recorrer un Vector](./recorrerVector.c)  
-[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./conversor.c)
+[Script Formas de recorrer un Vector](./ejerciciosRepaso/recorrerVector.c)  
+[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./ejerciciosRepaso/conversor.c)
 
 ---
 ### Matrices
@@ -230,14 +230,14 @@ Una matriz contiene de m x n elementos lo que indica que tiene m renglones y n c
 tipoDeVariable nombreMatriz[renglon][columna]
 ```
 
-[Script de Matrices](./matrices.c)
+[Script de Matrices](./ejerciciosRepaso/matrices.c)
 
 ---
 ### Archivos  
 Un archivo, es una colección de datos que tiene un nombre y una extensión que lo identifica y su contenido puede guardarse en distintos soportes de almacenamiento.  
 Tipo de Archivos:  
 * **Archivos Texto**  
-Registros de longitud variable. Pueden ser procesados por cualquier editor de texto . Contienen información en forma de caracteres. Normalmente se organizan los caracteres en forma de líneas al final de cada cual se coloca un carácter de fin de línea (normalmente “\r\n”).
+Registros de longitud variable. Pueden ser procesados por cualquier editor de texto. Contienen información en forma de caracteres. Normalmente se organizan los caracteres en forma de líneas al final de cada cual se coloca un carácter de fin de línea (normalmente “\r\n”).
 * **Archivos Binarios**  
 Registros delongitud fija. Almacenan datos en forma binaria,es decir que no son interpretables como texto (números, imágenes, etc.).
 
@@ -246,7 +246,8 @@ Para procesar un archivo la primera operación a realizar es abrir el archivo. U
 FILE= *id;
 id = fopen(nombreArchivo,"modo")  //Abro el archivo
 if (id == NULL) {
-    printf("Error al abrir el archivo.\n");
+    perror("Error al abrir el archivo\n");
+    return; 
 }
 
 {bloque}
@@ -274,8 +275,8 @@ Modos de Aperturas en Archivos Binarios
 | *wb* ó *w+b* | Apertura en modo lectura/escritura el archivo debe existir, si el archivo existe se sobreescribe y pierde el contenido anterior. Si no existe lo crea |
 | *ab* ó *a+b*  | Apertura en modo lectura/agregar, si el archivo existe agrega los datos al final del archivo, si no existe lo crea |
 
-[Script de Archivos de texto](./archivoTexto.c)  
-[Script de Archivo Binarios](./archivoBinario.c)
+[Script de Archivos de texto](./ejerciciosRepaso/archivoTexto.c)  
+[Script de Archivo Binarios](./ejerciciosRepaso/archivoBinario.c)
 
 ---
 ### Redondear
@@ -283,12 +284,12 @@ Modos de Aperturas en Archivos Binarios
 printf("%.2f\n", numero); // Muestra con 2 decimales
 printf("%.4f\n", numero); // Muestra con 4 decimales
 ```
-[Script de operacionales](./operacionales.c)
+[Script de operacionales](./ejerciciosRepaso/operacionales.c)
 
 ---
 ### Generar números Aleatorios  
 Como se ve en el ejemplo de acontinuación, se generan valores fijos de una semilla por más que se los vuelva a compilar va a devolver los mismos valores.  
-[Script de números aleatorios fijos](./numAleatoriosFijos.c)  
+[Script de números aleatorios fijos](./ejerciciosRepaso/numAleatoriosFijos.c)  
 
 Para generar números aleatorios mediante una semilla se necesita:  
 * Función $\rightarrow$ *srand(int)* $\rightarrow$ Biblioteca $\rightarrow$ stdlib.h  
@@ -297,9 +298,9 @@ Esta función permite indicar la semilla o valor inicial que se usará para la g
 * Función $\rightarrow$ *time(NULL)* $\rightarrow$ Biblioteca $\rightarrow$ time.h  
 Se va a utilizar el reloj del sistema para generar una semilla de valores distintos.  
 
-[Script de números aleatorios](./numAleatorios.c)  
-[Script de números aleatorios en un rango](./numAleatoriosRango.c)  
-[Script de números aleatorios en un rango de Inicio y Fin](./numAleatoriosIF.c)  
+[Script de números aleatorios](./ejerciciosRepaso/numAleatorios.c)  
+[Script de números aleatorios en un rango](./ejerciciosRepaso/numAleatoriosRango.c)  
+[Script de números aleatorios en un rango de Inicio y Fin](./ejerciciosRepaso/numAleatoriosIF.c)  
 
 ---
 ### Strings  
@@ -341,14 +342,15 @@ Funciones más utilizadas de la biblioteca string.h:
   * \>0 $\rightarrow$ Si la segunda va antes en el diccionario
 * *strcspn(cadena, caracter)* $\rightarrow$ Devuelve el índice del primer carácter en la cadena que coincida con el caracter a comparar.  
 
-[Script de elimina un Caracter](./eliminarCaracter.c) 
+[Script de elimina un Caracter](./ejerciciosRepaso/eliminarCaracter.c) 
 
 ---
-### Algoritmo de Ordenamiento
+### Algoritmo de Ordenamiento y Búsqueda de Máximos y Mínimos
 
 
 ---
 ### Funciones útiles
 * sizeof() $\rightarrow$ devuelve un número entero, la cantidad de bytes que usa la variable
-* 
+* system("cls") $\rightarrow$ Limpia la terminal $\rightarrow$ sólo funciona en Windows
 
+[Index](./index.md) | [Máscaras y Shif](./mascarasYShif.md)
