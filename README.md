@@ -15,7 +15,7 @@ gcc nombreArchivo.c -o nombreArchivo
 .\nombreArchivo
 ```
 ## Contenidos del Repo
-0. [Apuntes](./Apuntes/README.md)
+0. [Apuntes](./Apuntes/index.md)
 1. [Teoricas](./Teoricas)
 2. <details>
     <summary>Ejercitaciónes</summary>
