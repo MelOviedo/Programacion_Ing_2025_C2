@@ -18,7 +18,7 @@ gcc nombreArchivo.c -o nombreArchivo
 0. [Apuntes](./Apuntes/index.md)
 1. [Teoricas](./Teoricas)
 2. <details>
-    <summary>Ejercitaciónes</summary>
+    <summary>Ejercitaciones</summary>
 
     1. [Clase 0](./Clase0/)
     2. [Repaso](./Guias/repaso/)

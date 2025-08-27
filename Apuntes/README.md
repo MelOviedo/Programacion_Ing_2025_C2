@@ -1,4 +1,6 @@
-# <center> 📚 Contenido  
+[Index](./index.md) | [Sist. de Numeración, Máscaras y Shif](./mascarasYShif.md)  
+
+# <center> 📚 Contenido 
 ## <center>🔰 Ejemplos
 0. [Hola Mundo](./ejerciciosRepaso/holaMundo.c)
 1. [Tipo de Datos](./ejerciciosRepaso/tipoDeDato.c)
@@ -353,4 +355,4 @@ Funciones más utilizadas de la biblioteca string.h:
 * sizeof() $\rightarrow$ devuelve un número entero, la cantidad de bytes que usa la variable
 * system("cls") $\rightarrow$ Limpia la terminal $\rightarrow$ sólo funciona en Windows
 
-[Index](./index.md) | [Máscaras y Shif](./mascarasYShif.md)
+[Index](./index.md) | [Sist. de Numeración, Máscaras y Shif](./mascarasYShif.md)
