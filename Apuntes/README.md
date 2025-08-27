@@ -16,7 +16,7 @@
 11. [Números aleatorios en un rango de Inicio y Fin](./ejerciciosRepaso/numAleatoriosIF.c) 
 12. [Recorrer Matrices](./ejerciciosRepaso/matrices.c)
 13. [Eliminar un Caracter](./ejerciciosRepaso/eliminarCaracter.c)
-14. [Archivo Texto](./ejerciciosRepaso/archivoTexto.c)
+14. [Descomponer un Número](./ejerciciosRepaso/descomponerUnNumero.c)
 15. [Archivo Binario](./ejerciciosRepaso/archivoBinario.c)
 
 ## <center>📂Banco de Apuntes
@@ -79,8 +79,9 @@ Las palabras que empiezan con *#* se denominan directivas.
 | División  | / |
 | Módulo  | % |
 
+[Script Descomponer un Número](./ejerciciosRepaso/descomponerUnNumero.c)  
 [Script Operadores Binarios](./ejerciciosRepaso/operacionales.c)  
-[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./ejerciciosRepaso/conversor.c)
+[Script Conversor de Decimal a Binario, Octal y Hexadecimal](./ejerciciosRepaso/conversor.c)  
 
 ---
 ### Operador Asignación  

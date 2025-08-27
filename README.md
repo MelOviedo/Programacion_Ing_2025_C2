@@ -22,6 +22,7 @@ gcc nombreArchivo.c -o nombreArchivo
 
     1. [Clase 0](./Clase0/)
     2. [Repaso](./Guias/repaso/)
+    3. [Sistemas de Numeración, Máscaras y Shifteo](./Guias/numeracionYMascaras)
 
 </details>
 
