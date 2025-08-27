@@ -2,6 +2,8 @@
 #include<stdio.h>
 
 #define N 32 //porque un entero tiene 32 bits
+#define BCD 4 //porque cada dígito lo represento con 4 bists
+
 
 void limpiarVector(int vec[],int n){
   int i;
@@ -11,13 +13,13 @@ void limpiarVector(int vec[],int n){
 }
 
 void imprimirVector(int vec[],int i){
-  for ( i ; i>=0; i--){
+  for ( i-- ; i>=0; i--){
     printf("%d",vec[i]);
   }
 }
 
 int binario(int num, int bin[]){
-  int i,resto;
+  int i=0,resto;
   
   while(num!=0 && i<N){
     resto=num%2;
@@ -53,6 +55,37 @@ int hexa(int num, int bin[]){
   }
   i--;  //ya que se le agrego un valor extra al contador
   return i;
+}
+
+void bin2(int num,int vec[]){
+  int i,resto;
+  
+  for(i=0; i<4; i++){  
+    vec[i] = num % 2;   // se guarda del último al primero (MSB a LSB)
+    num /= 2;
+  }
+}
+
+void bcd(int num){
+  int u,d,c,aux;
+  int vec1[BCD],vec2[3];
+
+  u = num % 10;
+  d = (num / 10) % 10;
+  c = (num / 100) % 10;
+
+  vec2[0] = c;
+  vec2[1] = d;
+  vec2[2] = u;
+
+  printf("\nBCD: ");
+  for(int i=0; i<3; i++){
+    aux = vec2[i];
+    limpiarVector(vec1, BCD);
+    bin2(aux, vec1);
+    imprimirVector(vec1, BCD);
+    printf("  ");
+  }
 }
 
 void imprimirHexa(int vec[],int i){
@@ -97,6 +130,11 @@ int main(){
   i=hexa(num,hex);
   printf("\nN%cmero Hexadecimal: ",163);
   imprimirHexa(hex,i);
+
+  //Sólo BCD sirve para números entre 100 y 999 
+  if(num>=100 && num<=999){
+    bcd(num);
+  }
 
   return 0;
 }
