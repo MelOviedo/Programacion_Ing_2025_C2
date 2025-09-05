@@ -1,9 +1,9 @@
 # Programación 2025_C2 de la ECyT - UNSAM para Ingenierías
 Programa de la Materia:  
 * [Repaso](./Clase0/) | [Apuntes](./Apuntes/README.md)
-* Numeración y Máscaras
-* a
-* a
+* [Numeración y Máscaras](./Apuntes/mascarasYShif.md)
+* Tipos de Datos, Structs y Unions
+* Variables, funciones, macros y Headers
 * a
 * a
 
@@ -23,6 +23,7 @@ gcc nombreArchivo.c -o nombreArchivo
     1. [Clase 0](./Clase0/)
     2. [Repaso](./Guias/repaso/)
     3. [Sistemas de Numeración, Máscaras y Shifteo](./Guias/numeracionYMascaras)
+    4. [Structs y Unions](./Guias/structsYUnions)
 
 </details>
 

@@ -1,4 +1,4 @@
-[Index](./index.md) | [Apuntes Repaso](./README.md) | PROXIMO TEMA  
+[Index](./index.md) | [Apuntes Repaso](./README.md) | [Structs y Unions](./structsYUnions.md)  
 
 # <center> 📚 Contenido  
 ## <center>🔰 Ejemplos  
@@ -32,8 +32,24 @@
 * BCD
   * Forma de representar cada dígito decimal mediante un grupo de 4 bits (nibble).
   * Cada decimal 0–9 se codifica en 4 bits.
-Ejemplo
-259 → 0010 0101 1001
+Ejemplo  
+259 → 0010 0101 1001  
+
+[Script Conversor de Decimal a Binario, Octal, Hexadecimal y BCD](./ejerciciosRepaso/conversor.c)  
+
+### Operadores bitwise o bit a bit
+Son operadores que actúan sobre números enteros pero usando su representación binaria.
+```c
+
+```
 
 
-[Index](./index.md) | [Apuntes Repaso](./README.md) | PROXIMO TEMA  
+### Máscaras  
+Se utilizan para alterar un bit que pertenece a un registro.
+
+
+
+
+### Shifteo
+
+[Index](./index.md) | [Apuntes Repaso](./README.md) | [Structs y Unions](./structsYUnions.md)  

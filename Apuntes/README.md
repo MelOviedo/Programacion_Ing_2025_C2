@@ -282,10 +282,12 @@ Modos de Aperturas en Archivos Binarios
 [Script de Archivo Binarios](./ejerciciosRepaso/archivoBinario.c)
 
 ---
-### Redondear
+### Espcificación de formato
 ```c
 printf("%.2f\n", numero); // Muestra con 2 decimales
 printf("%.4f\n", numero); // Muestra con 4 decimales
+
+printf("%6d",numero); //Muestra ele entero decimal, por lo menos con 6 caracteres de amplitud
 ```
 [Script de operacionales](./ejerciciosRepaso/operacionales.c)
 
