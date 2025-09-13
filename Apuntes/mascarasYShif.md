@@ -56,6 +56,7 @@ Ejemplo: 0xAC = 172 en decimal.
 
 [Script de Notación](./mascarasYShif/notacion.c)
 
+---
 ### Operadores bitwise o bit a bit  
 Son operadores que operan bit por bit sobre números enteros, es decir, usando su representación binaria. A diferencia de los operadores lógicos (&&, ||, !) que trabajan con *verdadero/falso* y cortocircuito, los bitwise trabajan sobre cada bit del operando y no hacen cortocircuito.
 > [!TIP]  
