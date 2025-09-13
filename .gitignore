@@ -1,8 +1,12 @@
 # Ignorar archivos .exe
 *.exe
 *.dio
+*.vscode
+*.rar
+*.zip
 
 #Ignorar Carpeta
 /Extras/
 /ejerciciosEnClase/
 /tps/
+/Parciales/
