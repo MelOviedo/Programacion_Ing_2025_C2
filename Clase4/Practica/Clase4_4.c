@@ -47,7 +47,7 @@ void BubbleSort(int* vector, int longitud) {
     for (int j = 0; j < longitud - 1; j++) {
         for (int i = 0; i < longitud - j - 1; i++) {
             if (vector[i] > vector[i + 1]) {
-                Intercambio(vector[i], vector[i + 1]);
+                Intercambio(&vector[i], &vector[i + 1]);
             }
         }
     }

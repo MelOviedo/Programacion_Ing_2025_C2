@@ -23,7 +23,7 @@ void mostrarVector(int* vector, int longitud);
 void EasySort(int* vector, int longitud);
 
 int main() {
-    int size = sizeof(shortVector) / sizeof(shortVector)[0];
+    int size = sizeof(shortVector) / sizeof(shortVector[0]);
 
     printf("\nVector inicial: \n\t");
     mostrarVector(shortVector, size);
@@ -36,27 +36,29 @@ int main() {
 }
 
 void mostrarVector(int* vector, int longitud) {
-    int i;
-
-    for (i = 0; i < longitud; i++) {
+    for (int i = 0; i < longitud; i++) {
         printf("%d ", vector[i]);
     }
     printf("\n");
 }
 
 void EasySort(int* vector, int longitud) {
-    unsigned int i, j, temp[longitud], lastMin = 0, min;
+    int temp[longitud];
+    int min = vector[0];
+    int last_min = 0;
 
-    for (j = 0; j < longitud; j++) {
-        for (i = 0; i < longitud; i++) {
-            if ((vector[i] < min) && (vector[i] > lastMin)) {
-                min = vector[i];
+    for (int i = 0; i < longitud; i++) {
+        min = 65536;
+        for (int j = 0; j < longitud; j++) {
+            if ((vector[j] < min) && (vector[j] > last_min)) {
+                min = vector[j];
             }
         }
-        lastMin = min;
-        temp[j] = min;
+        temp[i] = min;
+        last_min = min;
     }
-    for (i = 0; i < longitud; i++) {
+
+    for (int i = 0; i < longitud; i++) {
         vector[i] = temp[i];
     }
 }
