@@ -58,7 +58,7 @@ Ejemplo: 0xAC = 172 en decimal.
 
 ---
 ### Operadores bitwise o bit a bit  
-Son operadores que operan bit por bit sobre números enteros, es decir, usando su representación binaria. A diferencia de los operadores lógicos (&&, ||, !) que trabajan con *verdadero/falso* y cortocircuito, los bitwise trabajan sobre cada bit del operando y no hacen cortocircuito.
+Son operadores que operan bit por bit sobre números enteros, es decir, usando su representación binaria. A diferencia de los operadores lógicos (&, |, !) que trabajan con *verdadero/falso* y cortocircuito, los bitwise trabajan sobre cada bit del operando y no hacen cortocircuito.
 > [!TIP]  
 > Utilizar **unsigned** para evitar sorpresas con el bit de signo.  
 > Tener en cuenta que se debe usar **UN** solo operador
@@ -131,5 +131,15 @@ Enteros dependientes de la arquitectura
 | intmax_t | uintmax_t | 16 bits | El tipo entero más grande disponible en la implementación.|
 
 [Script de los rangos dependiendo de la arquitectura de la máquina](./mascarasYShif/rangosVariables.c)  
+
+---
+- ¿Qué significa la palabra unsigned en lenguaje C? ¿Cómo se usa? ¿Modifica el tamaño que ocupa el tipo de datos?  
+**Unsigned**$\rightarrow$ es una palabra reservada en C que se usa para declarar enteros sin signo. Esto significa que la variable no puede representar números negativos y su rango va desde 0 hasta el valor máximo posible según el tamaño en bits del tipo [0 ; +$\infty$).  
+```c
+unsingned char caracter // 8bits --> 0 a 255
+unsingned int variable; //32bist -> 0 a 44.294.967.295
+
+> [!IMPORTANT]   
+> *unsigned* sólo aplica a tipos enteros
 
 [Index](./index.md) | [Apuntes Repaso](./README.md) | [Structs y Unions](./structsYUnions.md)  
