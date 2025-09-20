@@ -62,7 +62,7 @@ int main() {
 
   int* original_ptr = realloc_array;
   printf("Original pointer --> %p\n", original_ptr);
-  realloc_array = (int*)realloc(realloc_array, ARRAY_LEN+1 * sizeof(int));  /* Intento modificar */
+  realloc_array = (int*)realloc(realloc_array, (ARRAY_LEN + 1) * sizeof(int));  /* Intento modificar */
   if (!realloc_array){ /* esto me indica que falle */
     perror("realloc failed");
     free(original_ptr); /* antes de salir del programa, libero la memoria del bloque original */
