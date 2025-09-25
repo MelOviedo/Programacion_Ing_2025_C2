@@ -4,8 +4,10 @@ Programa de la Materia:
 * [Numeración y Máscaras](./Apuntes/mascarasYShif.md)
 * Tipos de Datos, Structs y Unions
 * Variables, funciones, macros y Headers
-* a
-* a
+* Funciones, Macros y Headers
+* Punteros
+* Memoria Dinámica
+* Listas Enlazadas  
 
 ## Complilación de ejercicios
 
