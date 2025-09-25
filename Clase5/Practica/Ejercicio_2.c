@@ -15,51 +15,56 @@ int main() {
         perror("Error al abrir el archivo");
     }
 
-    while (fread(&temp, sizeof(int), 1, file)) {
-        i++;
-    }
-
-    rewind(file);
-    int* lista = malloc(sizeof(int) * i);
-
+    int* lista = malloc(sizeof(int));
     if (lista == NULL) {
         perror("Error de asignación de memoria");
+        return 1;
     }
-    i = 0;
 
     while (fread(&lista[i], sizeof(int), 1, file)) {
         i++;
+        lista = (int*)realloc(lista, sizeof(int) * (i + 1));
+        if (lista == NULL) {
+            perror("Error de asignación de memoria");
+            return 1;
+        }
     }
 
     printf("\nTamaño de la lista: %d ", i);
-    fclose(file);
     free(lista);
+    fclose(file);
 
     return 0;
 }
 
 int main() {
     FILE* file;
-    int i = 0;
+    int i = 0, temp;
 
     file = fopen("lista.bin", "rb+");
     if (file == NULL) {
         perror("Error al abrir el archivo");
     }
 
-    int* lista = malloc(sizeof(int));
+    while (fread(&temp, sizeof(int), 1, file)) {
+        i++;
+    }
+    rewind(file);
+
+    int* lista = malloc(sizeof(int) * i);
     if (lista == NULL) {
         perror("Error de asignación de memoria");
+        return 1;
     }
 
+    i = 0;
     while (fread(&lista[i], sizeof(int), 1, file)) {
         i++;
-        lista = realloc(lista, (i + 1) * sizeof(int));
     }
 
     printf("\nTamaño de la lista: %d ", i);
-    fclose(file);
     free(lista);
+    fclose(file);
 
     return 0;
 }
